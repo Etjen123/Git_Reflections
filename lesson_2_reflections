@@ -28,12 +28,13 @@ git branch
 
 //compare to branches 
 git log --graph --oneline "first branch" "second branch"
-||||||| merged common ancestors
-=======
+
 
 //to add a new branch
 git branch "Name of Branch"
 
 //to switch to a branch
 git checkout "Name of Branch"
->>>>>>> easy-mode
+
+//to merge two branches
+git merge "first branch" "second branch"
