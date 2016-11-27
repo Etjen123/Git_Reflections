@@ -1,0 +1,14 @@
+//To list the files including the hidden ones
+ls -a
+
+//initialize a git repository on some directory
+git init
+
+//check if the repository is a git one and shows which files have changed
+git status
+
+//add a commit
+git add "Name of File to be committed" 
+
+//to execute a commit and specify the message
+git commit
