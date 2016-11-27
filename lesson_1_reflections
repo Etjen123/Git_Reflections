@@ -1,0 +1,44 @@
+//To open any application use
+open -a "Name of Application"
+
+//To navigate between folders use
+cd "Name of Folder/directory" "tab" (in case of spaces)
+
+//To create a new folder use
+mkdir "Name of Folder" 
+
+//To list the elements of a directory use
+ls 
+
+//To compare two files use
+diff -u "First File name" "Second File name"
+
+//To print the current directory you are working in use
+pwd 
+
+//To open a file use
+open -a "Name of Application" Name of File
+
+//To rename a file use
+mv "current file name" "new file name" 
+
+//To install git use
+git for mac google search
+
+//To clone a repository use 
+git clone "web link leading to the repository"
+
+//To print the logs, number of commits with all the changes made use
+git log
+
+//To be able to start typing again use
+q
+
+//To compare two commits use
+diff "paste first user id" "paste second user id"
+
+//To have the differences highlighted with color use
+git config --global.color.ui.auto
+
+//To checkout a version of a commit use
+git checkout "paste user id"
