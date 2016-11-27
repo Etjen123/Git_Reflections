@@ -1,0 +1,17 @@
+//To display all current remotes
+git remote
+
+//To add a remote 
+git remote add "name of remote" "url to the repository to github" 
+
+//To display more information about a remote
+git remote -v
+
+//To push the changes to the remote 
+git push "name of remote" "name of branch"
+
+//To pull changes from Github
+git pull "name of remote" "name of branch"
+
+//Update the local files
+git fetch "name of remote to pull from" 
