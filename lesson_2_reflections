@@ -24,3 +24,9 @@ git reset --hard
 
 //to display current branches 
 git branch
+
+//to add a new branch
+git branch "Name of Branch"
+
+//to switch to a branch
+git checkout "Name of Branch"
