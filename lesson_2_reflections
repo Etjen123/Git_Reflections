@@ -24,3 +24,6 @@ git reset --hard
 
 //to display current branches 
 git branch
+
+//compare to branches 
+git log --graph --oneline "first branch" "second branch"
