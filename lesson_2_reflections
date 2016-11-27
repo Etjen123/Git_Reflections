@@ -12,3 +12,13 @@ git add "Name of File to be committed"
 
 //to execute a commit and specify the message
 git commit
+
+//to see the changes between the working directory and the staging area, right after you see the change add it
+git diff
+
+//to see the changes between the staging area and the most recent commit in the repository
+git diff --staged
+
+//to get rid of changes permanently 
+git reset --hard
+
